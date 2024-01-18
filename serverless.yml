@@ -1,0 +1,66 @@
+org: jvamarangonia
+app: aws-node-sqs-worker-project
+service: aws-node-sqs-worker-project
+frameworkVersion: '3'
+useDotenv: true
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  region: us-east-1
+  environment:
+    FIFO_QUEUE_ARN: ${self:custom.myQueueARN}
+    SQS_OFFLINE_ENDPOINT: ${self:custom.serverless-offline-sqs.endpoint}
+    DB_HOST: localhost
+    DB_USER: root
+    DB_PASS: root
+    DB_NAME: root
+    DB_PORT: 5432
+
+functions:
+  producer:
+    handler: src/producer.producer
+    events:
+      # - schedule:
+      #     rate: rate(10 minutes)
+      - httpApi:
+          method: get
+          path: /produce
+    environment:
+      QUEUE_URL: http://0.0.0.0:9324/845849837793/aws-node-sqs-worker-project-dev-jobs
+      PLACE_ID: ChIJhxTcDIrVmwARm0brYm21Hkw
+      # GOOGLE_APP_KEY: AIzaSyAXuJZijGwql_E7urGEQrzNmwReMCj_pgs
+      GOOGLE_APP_KEY: ${env:GOOGLE_APP_KEY}
+
+  consumer:
+    handler: ./src/consumer.consumer
+    events:
+      - sqs: ${self:custom.myQueueARN}
+
+resources:
+  Resources:
+    myQueue:
+      Type: 'AWS::SQS::Queue'
+      Properties:
+        QueueName: ${self:service}-${sls:stage}-myQueue.fifo
+        ContentBasedDeduplication: false
+        FifoQueue: true
+
+custom:
+
+  serverless-offline: 
+    port: 3200
+
+  serverless-offline-sqs:
+    autoCreate: true
+    apiVersion: "2012-11-05"
+    endpoint: http://0.0.0.0:9324
+    region: ${self:provider.region}
+    skipCacheInvalidation: false
+
+  myQueueARN: arn:aws:sqs:${aws:region}:${aws:accountId}:${self:service}-${sls:stage}-myQueue.fifo
+
+plugins:
+  - serverless-offline-sqs
+  # - serverless-lift
+  - serverless-offline

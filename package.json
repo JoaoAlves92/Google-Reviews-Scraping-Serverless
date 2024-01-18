@@ -1,0 +1,25 @@
+{
+  "name": "aws-node-sqs-worker-project",
+  "version": "1.0.0",
+  "description": "Serverless Framework Node SQS Producer-Consumer on AWS",
+  "scripts": {
+    "dev": "npx serverless offline",
+    "start-elastic-mq": "docker run --name Offline-SQS --rm -it -p 9324:9324 -p 9325:9325 softwaremill/elasticmq-native",
+    "start-postgres": "docker run --name Reviews-DB --rm -it -e POSTGRES_PASSWORD=postgres  -p 5432:5432 postgres"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "serverless-offline": "^13.3.2",
+    "serverless-offline-sqs": "^8.0.0"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1537.0",
+    "axios": "^1.6.5",
+    "dotenv": "^16.3.1",
+    "moment": "^2.30.1",
+    "pg": "^8.11.3",
+    "pg-format": "^1.0.4",
+    "uuid": "^9.0.1"
+  }
+}

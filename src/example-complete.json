@@ -1,0 +1,412 @@
+{
+  "html_attributions": [],
+  "result": {
+    "address_components": [
+      {
+        "long_name": "595",
+        "short_name": "595",
+        "types": ["street_number"]
+      },
+      {
+        "long_name": "Rua Visconde de Pirajá",
+        "short_name": "R. Visc. de Pirajá",
+        "types": ["route"]
+      },
+      {
+        "long_name": "Ipanema",
+        "short_name": "Ipanema",
+        "types": ["sublocality_level_1", "sublocality", "political"]
+      },
+      {
+        "long_name": "Rio de Janeiro",
+        "short_name": "Rio de Janeiro",
+        "types": ["administrative_area_level_2", "political"]
+      },
+      {
+        "long_name": "Rio de Janeiro",
+        "short_name": "RJ",
+        "types": ["administrative_area_level_1", "political"]
+      },
+      {
+        "long_name": "Brazil",
+        "short_name": "BR",
+        "types": ["country", "political"]
+      },
+      {
+        "long_name": "22410-003",
+        "short_name": "22410-003",
+        "types": ["postal_code"]
+      }
+    ],
+    "adr_address": "<span class=\"street-address\">R. Visc. de Pirajá, 595</span> - <span class=\"extended-address\">Ipanema</span>, <span class=\"locality\">Rio de Janeiro</span> - <span class=\"region\">RJ</span>, <span class=\"postal-code\">22410-003</span>, <span class=\"country-name\">Brazil</span>",
+    "business_status": "OPERATIONAL",
+    "curbside_pickup": true,
+    "current_opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "date": "2024-01-14",
+            "day": 0,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2024-01-14",
+            "day": 0,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "date": "2024-01-15",
+            "day": 1,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2024-01-15",
+            "day": 1,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "date": "2024-01-16",
+            "day": 2,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2024-01-16",
+            "day": 2,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "date": "2024-01-17",
+            "day": 3,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2024-01-17",
+            "day": 3,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "date": "2024-01-18",
+            "day": 4,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2024-01-18",
+            "day": 4,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "date": "2024-01-12",
+            "day": 5,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2024-01-12",
+            "day": 5,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "date": "2024-01-13",
+            "day": 6,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2024-01-13",
+            "day": 6,
+            "time": "0700"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 7:00 AM – 10:00 PM",
+        "Tuesday: 7:00 AM – 10:00 PM",
+        "Wednesday: 7:00 AM – 10:00 PM",
+        "Thursday: 7:00 AM – 10:00 PM",
+        "Friday: 7:00 AM – 10:00 PM",
+        "Saturday: 7:00 AM – 10:00 PM",
+        "Sunday: 7:00 AM – 10:00 PM"
+      ]
+    },
+    "delivery": true,
+    "formatted_address": "R. Visc. de Pirajá, 595 - Ipanema, Rio de Janeiro - RJ, 22410-003, Brazil",
+    "formatted_phone_number": "(21) 3258-2787",
+    "geometry": {
+      "location": {
+        "lat": -22.9841517,
+        "lng": -43.2128543
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -22.9826325197085,
+          "lng": -43.2114986197085
+        },
+        "southwest": {
+          "lat": -22.9853304802915,
+          "lng": -43.2141965802915
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "international_phone_number": "+55 21 3258-2787",
+    "name": "Nema",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2200"
+          },
+          "open": {
+            "day": 0,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2200"
+          },
+          "open": {
+            "day": 1,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2200"
+          },
+          "open": {
+            "day": 2,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2200"
+          },
+          "open": {
+            "day": 3,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2200"
+          },
+          "open": {
+            "day": 4,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2200"
+          },
+          "open": {
+            "day": 5,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2200"
+          },
+          "open": {
+            "day": 6,
+            "time": "0700"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 7:00 AM – 10:00 PM",
+        "Tuesday: 7:00 AM – 10:00 PM",
+        "Wednesday: 7:00 AM – 10:00 PM",
+        "Thursday: 7:00 AM – 10:00 PM",
+        "Friday: 7:00 AM – 10:00 PM",
+        "Saturday: 7:00 AM – 10:00 PM",
+        "Sunday: 7:00 AM – 10:00 PM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 6240,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113401092913768969486\">Nema Padaria - Visconde de Pirajá | Padaria de Fermentação Natural</a>"
+        ],
+        "photo_reference": "AWU5eFjyJYGyyz2_CIEEjmpMI8nDuiR2ZEXQY5YitV_VqlHXDi-kaVfRnkAT-0uYlvsPQmBYBHizQE0sELavHm7yh3CVMk4Qzze92WGi8eK5bSmhWrVrndbXpwapt3Eexz_2VE2BgooC1rhuKWGvf4xJq3IM9tvZrCJl3KFtGJ1f-aDjXpQr",
+        "width": 4160
+      },
+      {
+        "height": 2000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113401092913768969486\">Nema Padaria - Visconde de Pirajá | Padaria de Fermentação Natural</a>"
+        ],
+        "photo_reference": "AWU5eFiM2Z6_XUCLjkQCfCI1v0AvLDVxCN-W-XKNU4b5x0_kXYDBPUHWyei4O6SkkxTcNzzyoN7M46fcDJDeMibiSRps2rnpeUJFXFmX6MNzn76acdHxn2qLis61blJVF3j2dPhhYPoeBW58880Fy6bXR7Eah0WxlPSaEod221JKL3pQCJ_1",
+        "width": 1600
+      },
+      {
+        "height": 1920,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113401092913768969486\">Nema Padaria - Visconde de Pirajá | Padaria de Fermentação Natural</a>"
+        ],
+        "photo_reference": "AWU5eFhOCF4T-pfjWnjr03100ouA3fU7QPjUBdJ7DzT4VJ-BAmYir4AcixJpQiV0Ppezyx6b36DvEkrS6pESYbS4LZeOepGFLtXmkrji0IiV7fKVoXXEL8hBkUnmUb3_2satN-tQ2uY7iOuiROrMiVSckh61yFXHsJPcRf5K4pluzYgLXj7K",
+        "width": 1280
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111143322756838717161\">Walter Carrara Loureiro Junior</a>"
+        ],
+        "photo_reference": "AWU5eFjfzugQw9EW_pMKffNUXeMw-qDQ0kMsThNOb0og9f4v7BuU00dwRyQcxOxRiUitnUQbZ9P1Hlq915mfSCw3wTua7o0b1_AQry96oC85SRemCaJB_URUClcApZN6zOty1QdjaBiQbVOD-2Kz_EIbth8Ib7yN8T35h6Moqs9a3mI-52lL",
+        "width": 3072
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114828663984347823931\">Saulo Santos</a>"
+        ],
+        "photo_reference": "AWU5eFjbvgGLlgldVo069nUIkedxgJucj1kCMX8LsiHhBFzRLppAW0s40TPaMQXwNt7I6YEp1FyuPbWQ73qBY76eYt8TB6uVWTViUKvM1ezU8sjumx2rrvSwT_ibV60zL2x_msBGXVQYOkmxLhpvuCv_n1hVTjUeGhbfThJ2AOpFJ-LE1ws",
+        "width": 3060
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111143322756838717161\">Walter Carrara Loureiro Junior</a>"
+        ],
+        "photo_reference": "AWU5eFjoN8zeABahxubQYvfBZ8UkPz3t6tG6u5KCM8ppgbSDki55xXCl51g2OiuBsbob1nnxwWmheuTPAYDKh_qN_JWCjuFC1c7eM-YlGwWHEtoceJxmx7Uk6mM_GqEpapeo1FqMYsEb5EfoNppUSwORwOqttcWed0-qWujWbFLEw-z3MBfl",
+        "width": 4080
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111143322756838717161\">Walter Carrara Loureiro Junior</a>"
+        ],
+        "photo_reference": "AWU5eFhXugexhDNUyFk9tLcOZ9qtTxLcGy6Hsk7D59omaFd4x3LT6UQovSrQ4E7CA32H_MjdtgJzinl20dKCPTIU3FcbN4EKLHHxD2-9gIZzi-TCwYJN8OsXGYbI2MLixWi93esuA2SPz6CNonOOic9H4gxsLJh50xsyZT1lQBX1-efg3BWV",
+        "width": 4080
+      },
+      {
+        "height": 5600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113401092913768969486\">Nema Padaria - Visconde de Pirajá | Padaria de Fermentação Natural</a>"
+        ],
+        "photo_reference": "AWU5eFhETCmbaYoHBrlt9E-KnCx1lAjRfz2oWpRfgFCsP_wjfo6evCHVJ2XhY1moWEUci37PvlFM-lgc96JZp7xVILTT0xk-pkP-kFARCW360eaCs7zRiMw5iKNXV5ZxwOsV_vdE8MOp7S1fcWxSbb01rPCDCnM6RY-vh9a3C66wbeQ5h5sz",
+        "width": 4480
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111143322756838717161\">Walter Carrara Loureiro Junior</a>"
+        ],
+        "photo_reference": "AWU5eFiaaA2Ssxe65pP5xHHWWfRBq9F5j4a4SfnWAR8GOhJ0IBh46ITeRkGkFHh3yB4XdwsiuYFWLa07KMVN2J2MPXUNP3d2lyq2bX3YH82IHC9112zWACx-sFB7ZQiFRlwg0-nxIkJJ24g9KYUJ6XsWxHmnFpeESXpNONrK4tg7k26kmw6s",
+        "width": 3072
+      },
+      {
+        "height": 5600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113401092913768969486\">Nema Padaria - Visconde de Pirajá | Padaria de Fermentação Natural</a>"
+        ],
+        "photo_reference": "AWU5eFhjXt4bD7k1DAHIRUZsfMbTohdB3R3foyKTsKUe3m-dJ7HGPaudj0nF3Ne-Lk-tu41cYOCN-uPBipo8bke1VN5M5r6X0gWaJ4zh_-RgodMjLG-9tWjKLLW-RkPLlFLaGC71kO_zVQDfL1-BI34JHcvv8Qm4wSMoZQfiL2oznIQ5_2rE",
+        "width": 4480
+      }
+    ],
+    "place_id": "ChIJhxTcDIrVmwARm0brYm21Hkw",
+    "plus_code": {
+      "compound_code": "2Q8P+8V Rio de Janeiro, State of Rio de Janeiro, Brazil",
+      "global_code": "589R2Q8P+8V"
+    },
+    "rating": 4.9,
+    "reference": "ChIJhxTcDIrVmwARm0brYm21Hkw",
+    "reviews": [
+      {
+        "author_name": "Apostolos Mintzis (Apo)",
+        "author_url": "https://www.google.com/maps/contrib/115987161473010835612/reviews",
+        "language": "en",
+        "original_language": "en",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjWWtbr_az8_4uTiVgBcqyQ_6_dasJg4QNgh4Wk9ZoY7_A=s128-c0x00000000-cc-rp-mo-ba3",
+        "rating": 5,
+        "relative_time_description": "a year ago",
+        "text": "The nutella sonho is by far the best sweet in a 1km radius. 😋😋 It’s like a donut filled with nutella and glazed with sugar. One is never enough.",
+        "time": 1659292341,
+        "translated": false
+      },
+      {
+        "author_name": "Yuva S M",
+        "author_url": "https://www.google.com/maps/contrib/113112359395395878933/reviews",
+        "language": "en",
+        "original_language": "en",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjVdnEkrAW__mPafZmLG7YsDEP99OMgCCED1aEf5MwRFYOU=s128-c0x00000000-cc-rp-mo-ba4",
+        "rating": 5,
+        "relative_time_description": "2 years ago",
+        "text": "Loved their freshly baked bread and sweet carrot chocolate cake !",
+        "time": 1640832750,
+        "translated": false
+      },
+      {
+        "author_name": "CA-RIO-CA Sunga Co.",
+        "author_url": "https://www.google.com/maps/contrib/100797221074485244904/reviews",
+        "language": "en",
+        "original_language": "en",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjUELa9CAOl0_hsOy8Ft2K7xEz5DRs8QC7QKKx3JRWMo2A=s128-c0x00000000-cc-rp-mo",
+        "rating": 5,
+        "relative_time_description": "11 months ago",
+        "text": "The best yasmin",
+        "time": 1674344613,
+        "translated": false
+      },
+      {
+        "author_name": "One World English",
+        "author_url": "https://www.google.com/maps/contrib/107107971849395702917/reviews",
+        "language": "en",
+        "original_language": "en",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjVQHJ94uOQq5n-WpJHvYmY7jr-SYkLWu_xv72awm1x-Jw=s128-c0x00000000-cc-rp-mo",
+        "rating": 5,
+        "relative_time_description": "a year ago",
+        "text": "Top!",
+        "time": 1669415401,
+        "translated": false
+      },
+      {
+        "author_name": "Carlos Alberto Couto Pimentel",
+        "author_url": "https://www.google.com/maps/contrib/112288983264612485952/reviews",
+        "language": "en",
+        "original_language": "en",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjVO538KS1dsGLVFqV8S4eCXSgQfbNsZvMTifTKoa2OCMA=s128-c0x00000000-cc-rp-mo",
+        "rating": 5,
+        "relative_time_description": "10 months ago",
+        "text": "Show!",
+        "time": 1676811040,
+        "translated": false
+      }
+    ],
+    "serves_breakfast": true,
+    "takeout": true,
+    "types": ["bakery", "food", "point_of_interest", "store", "establishment"],
+    "url": "https://maps.google.com/?cid=5485020877599491739",
+    "user_ratings_total": 600,
+    "utc_offset": -180,
+    "vicinity": "Rua Visconde de Pirajá, 595 - Ipanema, Rio de Janeiro",
+    "website": "https://linktr.ee/nemapadarias",
+    "wheelchair_accessible_entrance": true
+  },
+  "status": "OK"
+}
