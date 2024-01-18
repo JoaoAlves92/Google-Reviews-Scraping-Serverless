@@ -51,7 +51,7 @@ $ npm run dev
 
 ### Uso
 
-A evento de cron está desativado mas uma requisição GET na rota /producer ativa a lambda
+O evento de cron está desativado mas uma requisição GET na rota /producer ativa a lambda
 
 *Producer*
 
