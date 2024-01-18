@@ -29,7 +29,6 @@ functions:
     environment:
       QUEUE_URL: http://0.0.0.0:9324/845849837793/aws-node-sqs-worker-project-dev-jobs
       PLACE_ID: ChIJhxTcDIrVmwARm0brYm21Hkw
-      # GOOGLE_APP_KEY: AIzaSyAXuJZijGwql_E7urGEQrzNmwReMCj_pgs
       GOOGLE_APP_KEY: ${env:GOOGLE_APP_KEY}
 
   consumer:
@@ -62,5 +61,4 @@ custom:
 
 plugins:
   - serverless-offline-sqs
-  # - serverless-lift
   - serverless-offline
