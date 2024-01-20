@@ -1,6 +1,5 @@
-const pg = require("pg");
 const databaseConfig = require("../config/database");
+const Sequelize = require("sequelize");
+const sequelize = new Sequelize(databaseConfig);
 
-module.exports = {
-  pool: new pg.Pool(databaseConfig),
-};
+module.exports = sequelize;

@@ -1,7 +1,12 @@
 module.exports = {
-  host: process.env.DB_HOST,
-  user: process.env.DB_USER,
-  password: process.env.DB_PASS,
-  database: process.env.DB_NAME,
-  port: process.env.DB_PORT,
+  dialect: "postgres",
+  host: "localhost",
+  username: "root",
+  password: "root",
+  database: "root",
+  define: {
+    timestamps: true,
+    underscored: true,
+    underscoredAll: true,
+  },
 };

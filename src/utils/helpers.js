@@ -29,22 +29,9 @@ const toDateTime = (timestamp) => {
   return date.format('YYYY-MM-DD HH:MM:SS');
 }
 
-const convertReviewToArrayOfValues = (reviewsArray) => {
-  return reviewsArray.map((obj) => [
-    obj.author_name,
-    obj.language,
-    obj.original_language,
-    obj.rating,
-    obj.relative_time_description,
-    obj.text,
-    toDateTime(obj.time),
-  ]);
-};
-
 module.exports = {
   buildQueryString,
   isLocalHost,
   generateSQSQueueUrlFromArn,
-  getOfflineSqsQueueUrl,
-  convertReviewToArrayOfValues
+  getOfflineSqsQueueUrl
 };
